@@ -1,9 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
+import { Row, Col } from 'antd';
 
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-);
+class About extends Component {
+  render() {
+    return (
+      <div className="container">
+        <Row>
+          <Col span={12}>col-12</Col>
+          <Col span={12}>col-12</Col>
+        </Row>
+      </div>
+    )
+  }
+}
 
 export default About

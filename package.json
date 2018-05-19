@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^2.13.8",
+    "antd": "^3.5.2",
     "babel-plugin-import": "^1.6.2",
     "react": "^16.0.0",
     "react-app-rewire-less": "^2.0.8",
