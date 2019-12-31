@@ -1,6 +1,6 @@
 {
-  "name": "create-react-app-antd",
-  "version": "0.1.0",
+  "name": "reich-michael",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "antd": "^3.5.2",
