@@ -4,14 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './includes/Header';
 
 import Home from './pages/Home';
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
+import Profile from './pages/Profile';
+import Blog from './pages/Blog';
+import BlogDetail from './pages/BlogDetail';
 
 function Routes() {
     return (
@@ -19,14 +14,17 @@ function Routes() {
             <Header />
             <div className="page-body">
                 <Switch>
-                    <Route path="/about">
-                        <About />
-                    </Route>
-                    <Route path="/users">
-                        <Users />
-                    </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                         <Home />
+                    </Route>
+                    <Route exact path="/profile">
+                        <Profile />
+                    </Route>
+                    <Route exact path="/blog">
+                        <Blog />
+                    </Route>
+                    <Route exact path="/blog/:slug">
+                        <BlogDetail />
                     </Route>
                 </Switch>
             </div>
