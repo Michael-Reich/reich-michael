@@ -14,7 +14,9 @@ export default function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Link className="nav-link" to="/">Home</Link>
-                            <Link className="nav-link" to="/about">Topcis</Link>
+                            <Link className="nav-link" to="/profile">Profile</Link>
+                            <Link className="nav-link" to="/blog">Blog</Link>
+                            <a className="nav-link" href="mailto:hello@reich-michael.com"><i className="fas fa-paper-plane"></i></a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
