@@ -4,5 +4,11 @@ export const BlogItems = [
         slug: 'hello-welt',
         previewText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et',
         markdown: 'blog/hallo-welt.md'
-    }
+    },
+    {
+        title: 'test',
+        slug: 'htest',
+        previewText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et asdf asdf asdf asdf ',
+        markdown: 'blog/hallo-welt.md'
+    },
 ]

@@ -40,10 +40,10 @@ const BlogDetail = () => {
     }, [slug]);
 
     if (error) {
-        return <Container className="mt-5"><Alert variant="info">No blog post found, please try another one.</Alert></Container>
+        return <Container className="mt-5"><Alert variant="info">No blog post found, please try another one.</Alert></Container>;
     }
 
-    if (blogDetail !== {}) {
+    if (Object.keys(blogDetail).length !== 0 && blogDetail.constructor === Object) {
         const blog = blogDetail;
         return (
             <section className="BlogDetail mt-5">
@@ -59,7 +59,7 @@ const BlogDetail = () => {
             </section>
         );
     } else {
-        return <Spinner animation="border" />
+        return <Container className="mt-5"><Spinner animation="border" /></Container>;
     }
 
 }
