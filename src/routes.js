@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
+import Linktree from './pages/Linktree';
+
 
 function Routes() {
     return (
@@ -25,6 +27,9 @@ function Routes() {
                     </Route>
                     <Route exact path="/blog/:slug">
                         <BlogDetail />
+                    </Route>
+                    <Route exact path="/linktree">
+                        <Linktree />
                     </Route>
                 </Switch>
             </div>
