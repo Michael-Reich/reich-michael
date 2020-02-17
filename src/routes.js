@@ -2,13 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from './includes/Header';
+import Footer from './includes/Footer';
 
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
 import Linktree from './pages/Linktree';
-
 
 function Routes() {
     return (
@@ -33,6 +33,7 @@ function Routes() {
                     </Route>
                 </Switch>
             </div>
+            <Footer/>
         </Router>
     )
 }
