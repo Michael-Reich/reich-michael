@@ -5,15 +5,20 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 function Header({location, history}) {
 
-  history.listen((location, action) => {
-    ReactGA.set({ page: location.pathname });
-    ReactGA.pageview(location.pathname);
-  });
 
-  useEffect(() => {
-    ReactGA.set({ page: location.pathname });
-    ReactGA.pageview(location.pathname);
-  }, [location.pathname])
+    history.listen((location, action) => {
+      if (process.env.NODE_ENV !== "development") {
+        ReactGA.set({ page: location.pathname });
+        ReactGA.pageview(location.pathname);
+      }
+    });
+
+    useEffect(() => {
+      if (process.env.NODE_ENV !== "development") {
+        ReactGA.set({ page: location.pathname });
+        ReactGA.pageview(location.pathname);
+      }
+    }, [location.pathname])
 
   return (
     <header className="main-navigation">

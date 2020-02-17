@@ -12,6 +12,9 @@ $container-max-widths: (
 
 @import "~bootstrap/scss/bootstrap";
 
+// Global
+@import "styles/global";
+
 // Includes
 @import "styles/includes/header";
 
