@@ -13,7 +13,7 @@ function Home() {
                     <h1>Servus!</h1>
                     <p>Mein Name ist Michael Reich, ich bin Gründer, Fitness-Junkie und mache gern Musik.</p>
                     <p>Ein Großteil meiner Zeit widme ich dem Plan einer Weltherrschaft in Form meiner Firma <a href="https://wunderlabs.io" target="_blank" rel="noopener noreferrer">wunderlabs.io</a>.</p>
-                    <p>Sontige Kreative ergüsse findet ihr in meinem Blog oder auf meine Soundcloud Seite <a href="https://soundcloud.com/bonzmann" target="_blank" rel="noopener noreferrer">Bonzmann</a></p>
+                    <p>Sontige Kreative ergüsse findet ihr in meinem Blog oder auf meine Soundcloud Seite <a href="https://soundcloud.com/hairymike" target="_blank" rel="noopener noreferrer">Hairy Mike</a></p>
                     <Link className="btn btn-primary" to="/profile">Mehr über mich</Link>
                 </Col>
                 <Col md={6}>
