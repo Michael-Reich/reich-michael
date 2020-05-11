@@ -6,26 +6,30 @@ import {Helmet} from 'react-helmet';
 import {BlogItems} from '../blog';
 
 function Blog() {
+  const sortedBlogItems = BlogItems.sort((a, b) => b.date - a.date)
+
     return (
         <section className="Blog mt-5">
             <Helmet title="Profile | reich-michael.com" />
             <Container>
                 <Row className="mb-3">
                     <Col md={12}>
-                        <h1>My Blog</h1>
+                        <h1>Blog</h1>
                     </Col>
                 </Row>
                 <Row>
 
-                    {BlogItems.map((item, index) => {
+                    {sortedBlogItems.map((item, index) => {
                         return (
                             <Col md={4} key={index}>
                                 <Card>
                                     {item.previewImage && <Card.Img variant="top" src="holder.js/100px180" />}
                                     <Card.Body>
                                         <Card.Title>{item.title}</Card.Title>
-                                        <Card.Text>{item.previewText}</Card.Text>
-                                        <Link className="btn btn-primary" to={`/blog/${item.slug}`}>Read more</Link>
+                                        <Card.Text>
+                                          {item.previewText}
+                                        </Card.Text>
+                                        <Link className="btn btn-primary" to={`/blog/${item.slug}`}>Lesen</Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
