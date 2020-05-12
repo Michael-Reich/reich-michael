@@ -52,7 +52,7 @@ const BlogDetail = () => {
                     <Row>
                         <Col md={12}>
                             <h1>{blog.title}</h1>
-                            <ReactMarkdown source={blog.markdown} />
+                            <ReactMarkdown escapeHtml={false} source={blog.markdown} />
                         </Col>
                     </Row>
                 </Container>
