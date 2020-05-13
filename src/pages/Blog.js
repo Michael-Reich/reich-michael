@@ -6,7 +6,7 @@ import {Helmet} from 'react-helmet';
 import {BlogItems} from '../blog';
 
 function Blog() {
-  const sortedBlogItems = BlogItems.sort((a, b) => b.date - a.date)
+  const sortedBlogItems = BlogItems.reverse();
 
     return (
         <section className="Blog mt-5">
@@ -21,7 +21,7 @@ function Blog() {
 
                     {sortedBlogItems.map((item, index) => {
                         return (
-                            <Col md={4} key={index}>
+                            <Col md={4} key={index} className={'mb-4'}>
                                 <Card>
                                     {item.previewImage && <Card.Img variant="top" src="holder.js/100px180" />}
                                     <Card.Body>
