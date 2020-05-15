@@ -26,5 +26,12 @@ export const BlogItems = [
       date: new Date('05-13-2020'),
       previewText: 'Zweiter Tag: Voller Energie!',
       markdown: 'blog/2020-05/Tag-2-von-30.md'
+    },
+    {
+      title: 'Tag 3 & 4/30',
+      slug: 'tag-3-4',
+      date: new Date('05-15-2020'),
+      previewText: 'Nichts läuft wie geplant.',
+      markdown: 'blog/2020-05/Tag-3-4-von-30.md'
     }
 ]
