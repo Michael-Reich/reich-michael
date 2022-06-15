@@ -6,7 +6,7 @@ import Routes from './routes';
 import './index.scss';
 
 if (process.env.NODE_ENV !== "development") {
-  ReactGA.initialize('UA-158657525-1');
+  ReactGA.initialize('UA-108888061-1');
 }
 
 
