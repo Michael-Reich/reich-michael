@@ -1,40 +1,48 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Header from './includes/Header';
-import Footer from './includes/Footer';
+import Header from "./includes/Header";
+import Footer from "./includes/Footer";
 
-import Home from './pages/Home';
-import Profile from './pages/Profile';
-import Blog from './pages/Blog';
-import BlogDetail from './pages/BlogDetail';
-import Linktree from './pages/Linktree';
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import Films from "./pages/Films";
+import FilmsDetail from "./pages/FilmsDetail";
+import Linktree from "./pages/Linktree";
+import Imprint from "./pages/Imprint";
+import Sedcard from "./pages/Sedcard";
 
 function Routes() {
-    return (
-        <Router>
-            <Header />
-            <div className="page-body">
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route exact path="/profile">
-                        <Profile />
-                    </Route>
-                    <Route exact path="/blog">
-                        <Blog />
-                    </Route>
-                    <Route exact path="/blog/:slug">
-                        <BlogDetail />
-                    </Route>
-                    <Route exact path="/linktree">
-                        <Linktree />
-                    </Route>
-                </Switch>
-            </div>
-            <Footer/>
-        </Router>
-    )
+  return (
+    <Router>
+      <Header />
+      <div className="page-body">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/profile">
+            <Profile />
+          </Route>
+          <Route exact path="/films">
+            <Films />
+          </Route>
+          <Route exact path="/films/:slug">
+            <FilmsDetail />
+          </Route>
+          <Route exact path="/linktree">
+            <Linktree />
+          </Route>
+          <Route exact path="/imprint">
+            <Imprint />
+          </Route>
+          <Route exact path="/sedcard">
+            <Sedcard />
+          </Route>
+        </Switch>
+      </div>
+      <Footer />
+    </Router>
+  );
 }
 export default Routes;

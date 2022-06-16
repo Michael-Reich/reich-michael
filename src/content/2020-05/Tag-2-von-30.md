@@ -1,4 +1,3 @@
-
 tl:dr
 Weiß gar nicht genau wie ich heute beschreiben soll... Gestartet bin ich in den Tag mit SEHR viel Energie, bis Nachmittags, da hatte ich dann ein kleines Tief. Dennoch bin ich sehr zufrieden mit dem heutigen Tag.
 

@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 $primary: #0a75d8;
-$font-family-base:'Roboto Mono';
+$font-family-base: "Roboto Mono";
 
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 960px
+  xl: 1080px,
 );
 
 @import "~bootstrap/scss/bootstrap";
@@ -20,3 +20,7 @@ $container-max-widths: (
 
 // Pages
 @import "styles/pages/linktree";
+
+// Slick Slider
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

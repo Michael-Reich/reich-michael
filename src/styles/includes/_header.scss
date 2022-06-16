@@ -1,8 +1,22 @@
 .main-navigation {
-    .nav-brand {
-        max-width: 170px;
-        img {
-            width: 100%;
-        }
+  .navbar {
+    //padding: 1rem 0;
+
+    .nav-link {
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
+  }
+  .nav-brand {
+    max-width: 170px;
+    img {
+      width: 100%;
+    }
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
 }

@@ -18,6 +18,7 @@ Heute lief nicht ganz so gut, da ich viel mit Technik zu kämpfen hatte, dadurch
 ## Wochenend-Ziel
 
 Dieses Wochenende möchte ich 3 Hauptziele erreichen:
+
 1. Dieses Format verbessern, um meine Ziele besser zu Dokumentieren
 2. Ein Buch fertig lesen (Habe dieses bereits begonnen)
 3. Papierkram aufräumen
