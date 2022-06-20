@@ -45,7 +45,8 @@ function Profile() {
             </p>
             <p>
               Willing to work around the globe and passionate about acting
-              Michael will further find his way into the film business.
+              Michael will further find his way into the film business. Every
+              opportunity is a great opportunity!
             </p>
             <p>
               If you have any specific questions, please don't hesitate and
