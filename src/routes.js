@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./includes/Header";
 import Footer from "./includes/Footer";
 
-import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Films from "./pages/Films";
 import FilmsDetail from "./pages/FilmsDetail";
 import Linktree from "./pages/Linktree";
 import Imprint from "./pages/Imprint";
 import Sedcard from "./pages/Sedcard";
+import WorkInProgress from "./pages/WorkInProgress";
 
 function Routes() {
   return (
@@ -19,7 +19,7 @@ function Routes() {
       <div className="page-body">
         <Switch>
           <Route exact path="/">
-            <Home />
+            <WorkInProgress />
           </Route>
           <Route exact path="/profile">
             <Profile />
