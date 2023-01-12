@@ -28,15 +28,15 @@ function Header({ location, history }) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="py-3 py-md-0">
             <Nav className="ml-auto">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-              <Link className="nav-link" to="/films">
-                Films
-              </Link>
-              <Link className="nav-link" to="/profile">
-                Biography
-              </Link>
+              {/*<Link className="nav-link" to="/">*/}
+              {/*  Home*/}
+              {/*</Link>*/}
+              {/*<Link className="nav-link" to="/films">*/}
+              {/*  Films*/}
+              {/*</Link>*/}
+              {/*<Link className="nav-link" to="/profile">*/}
+              {/*  Biography*/}
+              {/*</Link>*/}
 
               <a className="nav-link" href="mailto:hello@reich-michael.com">
                 <i className="fas fa-paper-plane"></i>
