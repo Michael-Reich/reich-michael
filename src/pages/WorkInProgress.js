@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
 
 function Home() {
   return (
