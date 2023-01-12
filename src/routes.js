@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from "./includes/Header";
-import Footer from "./includes/Footer";
 
 import Profile from "./pages/Profile";
 import Films from "./pages/Films";
@@ -41,7 +40,7 @@ function Routes() {
           </Route>
         </Switch>
       </div>
-      <Footer />
+      {/*<Footer />*/}
     </Router>
   );
 }
